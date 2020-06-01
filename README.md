@@ -56,7 +56,7 @@ FIELDS TERMINATED BY '|'
 (i, s)
 ```
 
-กรณีรวมไฟล์ Contral กับ Data ไว้ในไฟล์เดียวกัน ใช้สัญลักษณ * เข้ามาแทนที่ ดังตัวอย่าง
+กรณีรวมไฟล์ Control กับ Data ไว้ในไฟล์เดียวกัน ใช้สัญลักษณ * เข้ามาแทนที่ ดังตัวอย่าง
 
 ```
 LOAD DATA
@@ -81,3 +81,5 @@ sqlldr username@server/password control=loader.ctl log=log.txt
 ### Docker Image
 
 - https://github.com/junlapong/oracle-docker-images/tree/master/OracleDatabase/SingleInstance
+- [Set up Oracle XE with Docker container and connect with DBeaver](https://www.codesanook.com/setup-oracle-xe-database-on-docker-container-and-connect-with-dbeaver)
+
